@@ -7,6 +7,12 @@ When importing data from CSV files to SQLite, dates are often stored as `TEXT` (
 
 * **Example of the Issue:** SQL identifies `1/10/2011` as the minimum date because it starts with "1", while `9/9/2011` is identified as the maximum because it starts with "9".
 
+
+## 📊 Data Source
+The dataset used in this analysis is the **"Online Retail Dataset"** from Kaggle. 
+Due to file size limitations on GitHub, the CSV file is not included in this repository. 
+
+You can download it from here: [Kaggle - Online Retail Dataset](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
 ## 🚀 Solutions Implemented
 
 In this notebook (`sql_data_quality_issue.ipynb`), I implemented two professional approaches to resolve this:
